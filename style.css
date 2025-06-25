@@ -1,0 +1,156 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+.nav-link:hover{
+   font-size: 20px;
+}
+
+header{
+    background-color: pink;
+    color: black;
+    text-align: center;
+    font-family: "DM Serif Text", serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#AboutMe{
+    background-color: blueviolet;
+    padding-top: 3px;
+    padding-bottom: 3px;
+   
+    h1{
+        color: black;
+        text-align: center;
+        font-family: "PT Serif", serif;
+        font-weight: bold;
+    }
+
+   img{
+        display: block;
+        margin: auto;
+        border: 3px solid black;
+        border-radius: 5px;
+    }
+
+    p{
+        padding-top: 7px;
+        color: black;
+        font-family:"Inter", sans-serif;
+        font-weight: 500;
+        display: block;
+        margin: auto;
+        text-align: justify;
+        width: 600px;
+    }
+
+    .bringme{
+        color: black;
+        font-family:"Inter", sans-serif;
+        font-weight: 500;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+#MyProjects{
+    background-color: palegreen;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    h2{
+        padding-top: 3px;
+        padding-bottom: 5px;
+        color: black;
+        text-align: center;
+        font-family: "PT Serif", serif;
+        font-weight: bold;
+    }
+
+    .ProjectsList{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #Project1{
+        background: url("Hydroponics Stock Photo.jpg");
+        border: 1px transparent;
+        border-radius: 15px;
+        padding-block: 95px;
+        padding-inline: 75px;
+        text-align: center;
+        color: black;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    #Project1:hover{
+        font-size: 30px;
+        color: aqua;        
+    }
+
+    #Project2{
+        background: url("Hydroponics Strawberries.webp");
+        border: 1px transparent;
+        border-radius: 15px;
+        padding-block: 95px;
+        padding-inline: 75px;
+        text-align: center;
+        color: black;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    #Project3{
+        background: url("Hydroponics Strawberries.webp");
+        border: 1px transparent;
+        border-radius: 15px;
+        padding-block: 95px;
+        padding-inline: 75px;
+        text-align: center;
+        color: black;
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+
+#Skills{
+    background-color: paleturquoise;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    h3{
+        padding-top: 3px;
+        padding-bottom: 5px;
+        color: black;
+        text-align: center;
+        font-family: "PT Serif", serif;
+        font-weight: bold;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        padding-inline-start: 180px;
+        padding-inline-end: 180px;
+    }
+
+    li{
+        display: inline;
+        color: black;
+        background-color: white;
+        border: 1px transparent;
+        border-radius: 15px;
+        padding-block: 4px;
+        padding-inline: 12px;
+    }
+}
+
+@media screen (min-width:768){
+    body{
+        background-color:pink;
+    }
+}
