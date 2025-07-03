@@ -70,9 +70,30 @@ header{
         font-weight: bold;
     }
 
-    .ProjectsList{
+    .ProjectsPics{
+        list-style: none;
         display: flex;
         justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*#P1Description{
+        display: block;
+        margin: auto;
+        text-align: justify;
     }
 
     #Project1{
@@ -114,7 +135,7 @@ header{
         color: black;
         font-size: 18px;
         font-weight: 700;
-    }
+    }*/
 }
 
 #Skills{
@@ -154,3 +175,17 @@ header{
         background-color:pink;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+.custom
+
+
